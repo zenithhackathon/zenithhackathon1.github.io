@@ -29,3 +29,8 @@ $(".collapsible-header.btn").click(function() {
     $('.collapsible-header.btn.active i').addClass("fa-chevron-down");
     $('.collapsible-header.btn.active i').removeClass("fa-chevron-up");
 });
+
+
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+  });
